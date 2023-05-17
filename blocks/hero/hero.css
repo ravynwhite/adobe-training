@@ -14,11 +14,22 @@ main .hero {
   min-height: 300px;
 }
 
-main .hero h1 {
+main .hero .content {
+  text-align: center;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   color: white;
+}
+
+main .hero .content .seperator {
+  width: 128px;
+  height: 5px;
+  display: block;
+  content: "";
+  background-color: #ffc719;
+  transition: width .4s ease-in-out;
+  margin: auto;
 }
 
 main .hero picture {
